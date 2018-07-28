@@ -20,15 +20,15 @@ class Comment extends Model
 	
 	public function AddComment()
 	{
-		$email  = Yii::$app->user->identity->email;	
-		if(isset($email))
-		{
-			$AddComment  = new AddComment();
-			$AddComment->comment = $this->comment;
-			$AddComment->user_name = $email;
-			$AddComment->save();
-		}
+		$author_id  = Yii::$app->user->identity->id;
+		if(isset($author_id)){
+		$object = new AddComment();
+		$object->author_id = $author_id;
+		$object->comment = $this->comment;
+		return $object->save();
 	} 
+		
+	}	
 	
 }
 

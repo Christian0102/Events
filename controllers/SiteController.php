@@ -16,13 +16,14 @@ class SiteController extends Controller
 		{
 			return $this->redirect('login');
 		}
+		$comment = AddComment::findAll();
 		$model = new Comment();
 		if($model->load(Yii::$app->request->post() ) && $model->validate() )
 		{
 			$model->AddComment();
 			return $this->refresh();
 		}
-		return $this->render('index',['model'=>$model]);
+		return $this->render('index',['model'=>$model,'coment'=>$comment]);
 	}	
 		public function actionSignup()
 		{

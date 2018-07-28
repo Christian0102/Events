@@ -4594,3 +4594,449 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1532706031.776
     'REQUEST_TIME' => 1532706031
 ]
+2018-07-28 11:25:44 [::1][2][990g9m6prj4ajjaifftg29jp23][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`yii1`.`coment`, CONSTRAINT `coment_ibfk_1` FOREIGN KEY (`author_id`) REFERENCES `user` (`id`))' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/Command.php:1258
+Stack trace:
+#0 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/Command.php(1258): PDOStatement->execute()
+#1 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/Command.php(1075): yii\db\Command->internalExecute('<span class="st...')
+#2 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/Schema.php(433): yii\db\Command->execute()
+#3 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveRecord.php(549): yii\db\Schema->insert('<span class="st...', '[<span class="s...')
+#4 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveRecord.php(515): yii\db\ActiveRecord->insertInternal('<span class="ke...')
+#5 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/BaseActiveRecord.php(670): yii\db\ActiveRecord->insert('<span class="ke...', '<span class="ke...')
+#6 /opt/lampp/htdocs/Register/models/Comment.php(29): yii\db\BaseActiveRecord->save()
+#7 /opt/lampp/htdocs/Register/controllers/SiteController.php(22): app\models\Comment->AddComment()
+#8 [internal function]: app\controllers\SiteController->actionIndex()
+#9 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#10 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#11 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('<span class="st...', '[]')
+#12 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#13 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 /opt/lampp/htdocs/Register/web/index.php(12): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`yii1`.`coment`, CONSTRAINT `coment_ibfk_1` FOREIGN KEY (`author_id`) REFERENCES `user` (`id`))
+The SQL being executed was: INSERT INTO `coment` (`comment`, `user_name`) VALUES ('llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll', 'christian1@mail.ru')' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/Schema.php:664
+Stack trace:
+#0 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/Command.php(1263): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `co...')
+#1 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/Command.php(1075): yii\db\Command->internalExecute('<span class="st...')
+#2 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/Schema.php(433): yii\db\Command->execute()
+#3 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveRecord.php(549): yii\db\Schema->insert('<span class="st...', '[<span class="s...')
+#4 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveRecord.php(515): yii\db\ActiveRecord->insertInternal('<span class="ke...')
+#5 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/BaseActiveRecord.php(670): yii\db\ActiveRecord->insert('<span class="ke...', '<span class="ke...')
+#6 /opt/lampp/htdocs/Register/models/Comment.php(29): yii\db\BaseActiveRecord->save()
+#7 /opt/lampp/htdocs/Register/controllers/SiteController.php(22): app\models\Comment->AddComment()
+#8 [internal function]: app\controllers\SiteController->actionIndex()
+#9 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#10 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#11 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('<span class="st...', '[]')
+#12 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#13 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 /opt/lampp/htdocs/Register/web/index.php(12): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1452
+    [2] => Cannot add or update a child row: a foreign key constraint fails (`yii1`.`coment`, CONSTRAINT `coment_ibfk_1` FOREIGN KEY (`author_id`) REFERENCES `user` (`id`))
+)
+
+2018-07-28 11:25:44 [::1][2][990g9m6prj4ajjaifftg29jp23][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'NHKupAM1HWOGjXlzFioAW2UL4aYQibQMns8KrIG0TlwFKuvJZQVXNd_lMSIhB1lpNHyqxEba1U7KmGPrufMKKA=='
+    'Comment' => [
+        'comment' => 'llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '990g9m6prj4ajjaifftg29jp23'
+    '_csrf' => '8bf6a42a5546c1f2ba1aceca933d548531096644bfb3fe3cb074d746e5f1706da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1XEmf0JVYhHQ7-Y2QwKbVSaBTWiG8GDt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W1w2mCb9hTgbNNLt-MsMYQAAAAc'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W1w2mCb9hTgbNNLt-MsMYQAAAAc'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/Register/web/site/index'
+    'HTTP_COOKIE' => 'PHPSESSID=990g9m6prj4ajjaifftg29jp23; _csrf=8bf6a42a5546c1f2ba1aceca933d548531096644bfb3fe3cb074d746e5f1706da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221XEmf0JVYhHQ7-Y2QwKbVSaBTWiG8GDt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '190'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '50212'
+    'REDIRECT_URL' => '/Register/web/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/site/index'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532769944.597
+    'REQUEST_TIME' => 1532769944
+]
+2018-07-28 12:12:48 [::1][2][990g9m6prj4ajjaifftg29jp23][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION)' in /opt/lampp/htdocs/Register/models/Comment.php:31
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-07-28 12:12:48 [::1][2][990g9m6prj4ajjaifftg29jp23][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => '5XZunzHiY5qKxz7Gv62OJfE6pn4B8czlHCXJ8S93IbjULivyV9IpzNOvdpeIgNcXoE3tHFeiradIcqC2FzBlzA=='
+    'Comment' => [
+        'comment' => 'gggwwwwwwwwwwwwwwwwwwwqqqqqqqqqqqqzzzzzzzzzzzzzzz'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '990g9m6prj4ajjaifftg29jp23'
+    '_csrf' => '8bf6a42a5546c1f2ba1aceca933d548531096644bfb3fe3cb074d746e5f1706da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1XEmf0JVYhHQ7-Y2QwKbVSaBTWiG8GDt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W1xBoC2fq8ZAILBuPxgjTgAAAAk'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W1xBoC2fq8ZAILBuPxgjTgAAAAk'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/Register/web/site/index'
+    'HTTP_COOKIE' => 'PHPSESSID=990g9m6prj4ajjaifftg29jp23; _csrf=8bf6a42a5546c1f2ba1aceca933d548531096644bfb3fe3cb074d746e5f1706da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221XEmf0JVYhHQ7-Y2QwKbVSaBTWiG8GDt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '169'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '50926'
+    'REDIRECT_URL' => '/Register/web/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/site/index'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532772768.424
+    'REQUEST_TIME' => 1532772768
+]
+2018-07-28 12:13:11 [::1][2][990g9m6prj4ajjaifftg29jp23][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Comment::author_id' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Component.php:154
+Stack trace:
+#0 /opt/lampp/htdocs/Register/models/Comment.php(27): yii\base\Component->__get('author_id')
+#1 /opt/lampp/htdocs/Register/controllers/SiteController.php(22): app\models\Comment->AddComment()
+#2 [internal function]: app\controllers\SiteController->actionIndex()
+#3 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('index', Array)
+#6 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/index', Array)
+#7 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /opt/lampp/htdocs/Register/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2018-07-28 12:13:11 [::1][2][990g9m6prj4ajjaifftg29jp23][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'SvHI4QPvwWM9auyENu7Kh4Yrl7zbH54e32QQqb0s9dd7qY2MZd-LNWQCpNUBw5O111zc3o1M_1yLM3nuhWuxow=='
+    'Comment' => [
+        'comment' => 'yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '990g9m6prj4ajjaifftg29jp23'
+    '_csrf' => '8bf6a42a5546c1f2ba1aceca933d548531096644bfb3fe3cb074d746e5f1706da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1XEmf0JVYhHQ7-Y2QwKbVSaBTWiG8GDt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W1xBt7t21AdkjroYCV7ENwAAAAM'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W1xBt7t21AdkjroYCV7ENwAAAAM'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/Register/web/site/index'
+    'HTTP_COOKIE' => 'PHPSESSID=990g9m6prj4ajjaifftg29jp23; _csrf=8bf6a42a5546c1f2ba1aceca933d548531096644bfb3fe3cb074d746e5f1706da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221XEmf0JVYhHQ7-Y2QwKbVSaBTWiG8GDt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '163'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '50928'
+    'REDIRECT_URL' => '/Register/web/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/site/index'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532772791.384
+    'REQUEST_TIME' => 1532772791
+]
+2018-07-28 12:13:52 [::1][2][990g9m6prj4ajjaifftg29jp23][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\PDO' not found' in /opt/lampp/htdocs/Register/models/Comment.php:27
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-07-28 12:13:52 [::1][2][990g9m6prj4ajjaifftg29jp23][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'X4FLZCBwexoLNruDx6FCT4SrwO5MXwzex2IjK7Ymad1u2Q4JRkAxTFJe89LwjBt91dyLjBoMbZyTNUpsjmEtqQ=='
+    'Comment' => [
+        'comment' => 'yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '990g9m6prj4ajjaifftg29jp23'
+    '_csrf' => '8bf6a42a5546c1f2ba1aceca933d548531096644bfb3fe3cb074d746e5f1706da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1XEmf0JVYhHQ7-Y2QwKbVSaBTWiG8GDt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W1xB4NejIyAHz3dQI0cf3wAAAAI'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W1xB4NejIyAHz3dQI0cf3wAAAAI'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/Register/web/site/index'
+    'HTTP_COOKIE' => 'PHPSESSID=990g9m6prj4ajjaifftg29jp23; _csrf=8bf6a42a5546c1f2ba1aceca933d548531096644bfb3fe3cb074d746e5f1706da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221XEmf0JVYhHQ7-Y2QwKbVSaBTWiG8GDt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '153'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '50936'
+    'REDIRECT_URL' => '/Register/web/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/site/index'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532772832.52
+    'REQUEST_TIME' => 1532772832
+]
+2018-07-28 12:21:29 [::1][2][990g9m6prj4ajjaifftg29jp23][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '?>', expecting function (T_FUNCTION)' in /opt/lampp/htdocs/Register/models/Comment.php:38
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-07-28 12:21:29 [::1][2][990g9m6prj4ajjaifftg29jp23][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'hf1elmfZmMgrF7bD_qu6vv09CCjq2CLR_6Za-PVH5LO0pRv7AenSnnJ__pLJhuOMrEpDSryLQ5Or8TO_zQCgxw=='
+    'Comment' => [
+        'comment' => 'loldadadadadadad'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '990g9m6prj4ajjaifftg29jp23'
+    '_csrf' => '8bf6a42a5546c1f2ba1aceca933d548531096644bfb3fe3cb074d746e5f1706da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1XEmf0JVYhHQ7-Y2QwKbVSaBTWiG8GDt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W1xDqeAqgCrYOWyqemQpxAAAAAE'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W1xDqeAqgCrYOWyqemQpxAAAAAE'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/Register/web/site/index'
+    'HTTP_COOKIE' => 'PHPSESSID=990g9m6prj4ajjaifftg29jp23; _csrf=8bf6a42a5546c1f2ba1aceca933d548531096644bfb3fe3cb074d746e5f1706da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221XEmf0JVYhHQ7-Y2QwKbVSaBTWiG8GDt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '136'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '51022'
+    'REDIRECT_URL' => '/Register/web/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/site/index'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532773289.077
+    'REQUEST_TIME' => 1532773289
+]
+2018-07-28 12:37:56 [::1][2][990g9m6prj4ajjaifftg29jp23][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Missing argument 1 for yii\db\BaseActiveRecord::findAll(), called in /opt/lampp/htdocs/Register/controllers/SiteController.php on line 19 and defined' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/BaseActiveRecord.php:119
+Stack trace:
+#0 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/BaseActiveRecord.php(119): yii\base\ErrorHandler->handleError(2, 'Missing argumen...', '/opt/lampp/htdo...', 119, Array)
+#1 /opt/lampp/htdocs/Register/controllers/SiteController.php(19): yii\db\BaseActiveRecord::findAll()
+#2 [internal function]: app\controllers\SiteController->actionIndex()
+#3 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('index', Array)
+#6 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/index', Array)
+#7 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /opt/lampp/htdocs/Register/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2018-07-28 12:37:56 [::1][2][990g9m6prj4ajjaifftg29jp23][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '990g9m6prj4ajjaifftg29jp23'
+    '_csrf' => '8bf6a42a5546c1f2ba1aceca933d548531096644bfb3fe3cb074d746e5f1706da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1XEmf0JVYhHQ7-Y2QwKbVSaBTWiG8GDt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W1xHhOkFyZvwiC3BSwGNaAAAAAg'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W1xHhOkFyZvwiC3BSwGNaAAAAAg'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=990g9m6prj4ajjaifftg29jp23; _csrf=8bf6a42a5546c1f2ba1aceca933d548531096644bfb3fe3cb074d746e5f1706da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221XEmf0JVYhHQ7-Y2QwKbVSaBTWiG8GDt%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '51552'
+    'REDIRECT_URL' => '/Register/web/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/site/index'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532774276.729
+    'REQUEST_TIME' => 1532774276
+]
