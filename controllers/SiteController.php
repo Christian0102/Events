@@ -16,7 +16,10 @@ class SiteController extends Controller
 		{
 			return $this->redirect('login');
 		}
-		$comment = AddComment::findAll();
+		    $comment = AddComment::find()		    
+		    ->joinWith('user')->all(); 
+		
+		
 		$model = new Comment();
 		if($model->load(Yii::$app->request->post() ) && $model->validate() )
 		{

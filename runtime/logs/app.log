@@ -5040,3 +5040,2692 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1532774276.729
     'REQUEST_TIME' => 1532774276
 ]
+2018-07-28 19:38:20 [::1][2][o5tq5c66cpgervofaqs4bve6f4][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Missing argument 1 for yii\db\BaseActiveRecord::findAll(), called in /opt/lampp/htdocs/Register/controllers/SiteController.php on line 19 and defined' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/BaseActiveRecord.php:119
+Stack trace:
+#0 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/BaseActiveRecord.php(119): yii\base\ErrorHandler->handleError(2, 'Missing argumen...', '/opt/lampp/htdo...', 119, Array)
+#1 /opt/lampp/htdocs/Register/controllers/SiteController.php(19): yii\db\BaseActiveRecord::findAll()
+#2 [internal function]: app\controllers\SiteController->actionIndex()
+#3 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('index', Array)
+#6 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/index', Array)
+#7 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /opt/lampp/htdocs/Register/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2018-07-28 19:38:20 [::1][2][o5tq5c66cpgervofaqs4bve6f4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'o5tq5c66cpgervofaqs4bve6f4'
+    '_csrf' => '700b7089c8c6680a4638f6a6c6fdbf834f72ebf92df629f60e6569bb7927e363a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QashMWiJq-1Jzu-lbVCcCt5DDPgTaFAa\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'info' => -1
+    ]
+    '__id' => 2
+    'info' => 'Welcome christian1@mail.ru'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W1yqDNftxCj0sFSIyJn1AQAAAAA'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W1yqDNftxCj0sFSIyJn1AQAAAAA'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/Register/web/site/login'
+    'HTTP_COOKIE' => 'PHPSESSID=o5tq5c66cpgervofaqs4bve6f4; _csrf=700b7089c8c6680a4638f6a6c6fdbf834f72ebf92df629f60e6569bb7927e363a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QashMWiJq-1Jzu-lbVCcCt5DDPgTaFAa%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '57598'
+    'REDIRECT_URL' => '/Register/web/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/site/index'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532799500.302
+    'REQUEST_TIME' => 1532799500
+]
+2018-07-29 12:50:19 [::1][2][o5tq5c66cpgervofaqs4bve6f4][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Missing argument 1 for yii\db\BaseActiveRecord::findAll(), called in /opt/lampp/htdocs/Register/controllers/SiteController.php on line 19 and defined' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/BaseActiveRecord.php:119
+Stack trace:
+#0 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/BaseActiveRecord.php(119): yii\base\ErrorHandler->handleError(2, 'Missing argumen...', '/opt/lampp/htdo...', 119, Array)
+#1 /opt/lampp/htdocs/Register/controllers/SiteController.php(19): yii\db\BaseActiveRecord::findAll()
+#2 [internal function]: app\controllers\SiteController->actionIndex()
+#3 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('index', Array)
+#6 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/index', Array)
+#7 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /opt/lampp/htdocs/Register/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2018-07-29 12:50:19 [::1][2][o5tq5c66cpgervofaqs4bve6f4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'o5tq5c66cpgervofaqs4bve6f4'
+    '_csrf' => '700b7089c8c6680a4638f6a6c6fdbf834f72ebf92df629f60e6569bb7927e363a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QashMWiJq-1Jzu-lbVCcCt5DDPgTaFAa\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'info' => -1
+    ]
+    '__id' => 2
+    'info' => 'Welcome christian1@mail.ru'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W12b6@hQ77sjgcCCOAiKMwAAAAQ'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W12b6@hQ77sjgcCCOAiKMwAAAAQ'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=o5tq5c66cpgervofaqs4bve6f4; _csrf=700b7089c8c6680a4638f6a6c6fdbf834f72ebf92df629f60e6569bb7927e363a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QashMWiJq-1Jzu-lbVCcCt5DDPgTaFAa%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '58882'
+    'REDIRECT_URL' => '/Register/web/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/site/index'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532861419.248
+    'REQUEST_TIME' => 1532861419
+]
+2018-07-29 12:55:13 [::1][2][o5tq5c66cpgervofaqs4bve6f4][error][yii\base\InvalidArgumentException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: app\models\AddComment::getuser()' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Component.php:300
+Stack trace:
+#0 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/BaseActiveRecord.php(1236): yii\base\Component->__call('getuser', Array)
+#1 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/BaseActiveRecord.php(1236): app\models\AddComment->getuser()
+#2 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(540): yii\db\BaseActiveRecord->getRelation('<span class="st...')
+#3 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(450): yii\db\ActiveQuery->joinWithRelations(Object(app\models\AddComment), '[<span class="s...', '<span class="st...')
+#4 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(146): yii\db\ActiveQuery->buildJoinWith()
+#5 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/QueryBuilder.php(227): yii\db\ActiveQuery->prepare(Object(yii\db\mysql\QueryBuilder))
+#6 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(316): yii\db\QueryBuilder->build(Object(yii\db\ActiveQuery))
+#7 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/Query.php(237): yii\db\ActiveQuery->createCommand('<span class="ke...')
+#8 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#9 /opt/lampp/htdocs/Register/controllers/SiteController.php(19): yii\db\ActiveQuery->all()
+#10 [internal function]: app\controllers\SiteController->actionIndex()
+#11 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#12 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#13 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('<span class="st...', '[]')
+#14 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#15 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /opt/lampp/htdocs/Register/web/index.php(12): yii\base\Application->run()
+#17 {main}
+
+Next exception 'yii\base\InvalidArgumentException' with message 'app\models\AddComment has no relation named "user".' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/BaseActiveRecord.php:1239
+Stack trace:
+#0 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(540): yii\db\BaseActiveRecord->getRelation('<span class="st...')
+#1 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(450): yii\db\ActiveQuery->joinWithRelations(Object(app\models\AddComment), '[<span class="s...', '<span class="st...')
+#2 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(146): yii\db\ActiveQuery->buildJoinWith()
+#3 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/QueryBuilder.php(227): yii\db\ActiveQuery->prepare(Object(yii\db\mysql\QueryBuilder))
+#4 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(316): yii\db\QueryBuilder->build(Object(yii\db\ActiveQuery))
+#5 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/Query.php(237): yii\db\ActiveQuery->createCommand('<span class="ke...')
+#6 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#7 /opt/lampp/htdocs/Register/controllers/SiteController.php(19): yii\db\ActiveQuery->all()
+#8 [internal function]: app\controllers\SiteController->actionIndex()
+#9 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#10 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#11 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('<span class="st...', '[]')
+#12 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#13 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 /opt/lampp/htdocs/Register/web/index.php(12): yii\base\Application->run()
+#15 {main}
+2018-07-29 12:55:13 [::1][2][o5tq5c66cpgervofaqs4bve6f4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'o5tq5c66cpgervofaqs4bve6f4'
+    '_csrf' => '700b7089c8c6680a4638f6a6c6fdbf834f72ebf92df629f60e6569bb7927e363a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QashMWiJq-1Jzu-lbVCcCt5DDPgTaFAa\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'info' => -1
+    ]
+    '__id' => 2
+    'info' => 'Welcome christian1@mail.ru'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W12dEeXeRIxc8B1bDnERDgAAAAI'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W12dEeXeRIxc8B1bDnERDgAAAAI'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=o5tq5c66cpgervofaqs4bve6f4; _csrf=700b7089c8c6680a4638f6a6c6fdbf834f72ebf92df629f60e6569bb7927e363a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QashMWiJq-1Jzu-lbVCcCt5DDPgTaFAa%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '59032'
+    'REDIRECT_URL' => '/Register/web/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/site/index'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532861713.69
+    'REQUEST_TIME' => 1532861713
+]
+2018-07-30 14:37:52 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "index/site".' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('index/site', Array)
+#1 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /opt/lampp/htdocs/Register/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/Register/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2018-07-30 14:37:52 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W18GoO8UveNwq2qmulz4VgAAAAA'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W18GoO8UveNwq2qmulz4VgAAAAA'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '54492'
+    'REDIRECT_URL' => '/Register/web/index/site'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/index/site'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532954272.537
+    'REQUEST_TIME' => 1532954272
+]
+2018-07-30 14:38:17 [::1][2][7tjp8ghkjopas3iglkg838im24][error][yii\base\InvalidArgumentException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: app\models\AddComment::getuser()' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Component.php:300
+Stack trace:
+#0 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/BaseActiveRecord.php(1236): yii\base\Component->__call('getuser', Array)
+#1 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/BaseActiveRecord.php(1236): app\models\AddComment->getuser()
+#2 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(540): yii\db\BaseActiveRecord->getRelation('<span class="st...')
+#3 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(450): yii\db\ActiveQuery->joinWithRelations(Object(app\models\AddComment), '[<span class="s...', '<span class="st...')
+#4 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(146): yii\db\ActiveQuery->buildJoinWith()
+#5 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/QueryBuilder.php(227): yii\db\ActiveQuery->prepare(Object(yii\db\mysql\QueryBuilder))
+#6 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(316): yii\db\QueryBuilder->build(Object(yii\db\ActiveQuery))
+#7 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/Query.php(237): yii\db\ActiveQuery->createCommand('<span class="ke...')
+#8 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#9 /opt/lampp/htdocs/Register/controllers/SiteController.php(19): yii\db\ActiveQuery->all()
+#10 [internal function]: app\controllers\SiteController->actionIndex()
+#11 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#12 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#13 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('<span class="st...', '[]')
+#14 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#15 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /opt/lampp/htdocs/Register/web/index.php(12): yii\base\Application->run()
+#17 {main}
+
+Next exception 'yii\base\InvalidArgumentException' with message 'app\models\AddComment has no relation named "user".' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/BaseActiveRecord.php:1239
+Stack trace:
+#0 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(540): yii\db\BaseActiveRecord->getRelation('<span class="st...')
+#1 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(450): yii\db\ActiveQuery->joinWithRelations(Object(app\models\AddComment), '[<span class="s...', '<span class="st...')
+#2 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(146): yii\db\ActiveQuery->buildJoinWith()
+#3 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/QueryBuilder.php(227): yii\db\ActiveQuery->prepare(Object(yii\db\mysql\QueryBuilder))
+#4 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(316): yii\db\QueryBuilder->build(Object(yii\db\ActiveQuery))
+#5 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/Query.php(237): yii\db\ActiveQuery->createCommand('<span class="ke...')
+#6 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#7 /opt/lampp/htdocs/Register/controllers/SiteController.php(19): yii\db\ActiveQuery->all()
+#8 [internal function]: app\controllers\SiteController->actionIndex()
+#9 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#10 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#11 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('<span class="st...', '[]')
+#12 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#13 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 /opt/lampp/htdocs/Register/web/index.php(12): yii\base\Application->run()
+#15 {main}
+2018-07-30 14:38:17 [::1][2][7tjp8ghkjopas3iglkg838im24][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7tjp8ghkjopas3iglkg838im24'
+    '_csrf' => '21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'info' => -1
+    ]
+    '__id' => 2
+    'info' => 'Welcome christian1@mail.ru'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W18GuUCs6d7ND7SZ0Cz6-gAAAAQ'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W18GuUCs6d7ND7SZ0Cz6-gAAAAQ'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/Register/web/site/login'
+    'HTTP_COOKIE' => 'PHPSESSID=7tjp8ghkjopas3iglkg838im24; _csrf=21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '54500'
+    'REDIRECT_URL' => '/Register/web/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/site/index'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532954297.274
+    'REQUEST_TIME' => 1532954297
+]
+2018-07-30 15:05:15 [::1][2][7tjp8ghkjopas3iglkg838im24][error][yii\base\InvalidArgumentException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: app\models\AddComment::getuser()' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Component.php:300
+Stack trace:
+#0 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/BaseActiveRecord.php(1236): yii\base\Component->__call('getuser', Array)
+#1 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/BaseActiveRecord.php(1236): app\models\AddComment->getuser()
+#2 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(540): yii\db\BaseActiveRecord->getRelation('<span class="st...')
+#3 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(450): yii\db\ActiveQuery->joinWithRelations(Object(app\models\AddComment), '[<span class="s...', '<span class="st...')
+#4 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(146): yii\db\ActiveQuery->buildJoinWith()
+#5 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/QueryBuilder.php(227): yii\db\ActiveQuery->prepare(Object(yii\db\mysql\QueryBuilder))
+#6 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(316): yii\db\QueryBuilder->build(Object(yii\db\ActiveQuery))
+#7 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/Query.php(237): yii\db\ActiveQuery->createCommand('<span class="ke...')
+#8 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#9 /opt/lampp/htdocs/Register/controllers/SiteController.php(26): yii\db\ActiveQuery->all()
+#10 [internal function]: app\controllers\SiteController->actionIndex()
+#11 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#12 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#13 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('<span class="st...', '[]')
+#14 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#15 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /opt/lampp/htdocs/Register/web/index.php(12): yii\base\Application->run()
+#17 {main}
+
+Next exception 'yii\base\InvalidArgumentException' with message 'app\models\AddComment has no relation named "user".' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/BaseActiveRecord.php:1239
+Stack trace:
+#0 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(540): yii\db\BaseActiveRecord->getRelation('<span class="st...')
+#1 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(450): yii\db\ActiveQuery->joinWithRelations(Object(app\models\AddComment), '[<span class="s...', '<span class="st...')
+#2 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(146): yii\db\ActiveQuery->buildJoinWith()
+#3 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/QueryBuilder.php(227): yii\db\ActiveQuery->prepare(Object(yii\db\mysql\QueryBuilder))
+#4 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(316): yii\db\QueryBuilder->build(Object(yii\db\ActiveQuery))
+#5 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/Query.php(237): yii\db\ActiveQuery->createCommand('<span class="ke...')
+#6 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#7 /opt/lampp/htdocs/Register/controllers/SiteController.php(26): yii\db\ActiveQuery->all()
+#8 [internal function]: app\controllers\SiteController->actionIndex()
+#9 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#10 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#11 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('<span class="st...', '[]')
+#12 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#13 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 /opt/lampp/htdocs/Register/web/index.php(12): yii\base\Application->run()
+#15 {main}
+2018-07-30 15:05:14 [::1][2][7tjp8ghkjopas3iglkg838im24][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7tjp8ghkjopas3iglkg838im24'
+    '_csrf' => '21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'info' => -1
+    ]
+    '__id' => 2
+    'info' => 'Welcome christian1@mail.ru'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W18NCkCs6d7ND7SZ0Cz6-wAAAAQ'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W18NCkCs6d7ND7SZ0Cz6-wAAAAQ'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=7tjp8ghkjopas3iglkg838im24; _csrf=21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '55042'
+    'REDIRECT_URL' => '/Register/web/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/site/index'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532955914.889
+    'REQUEST_TIME' => 1532955914
+]
+2018-07-30 15:09:26 [::1][2][7tjp8ghkjopas3iglkg838im24][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '$model' (T_VARIABLE)' in /opt/lampp/htdocs/Register/controllers/SiteController.php:27
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-07-30 15:09:26 [::1][2][7tjp8ghkjopas3iglkg838im24][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7tjp8ghkjopas3iglkg838im24'
+    '_csrf' => '21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'info' => -1
+    ]
+    '__id' => 2
+    'info' => 'Welcome christian1@mail.ru'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W18OBrP@lg9FWCPEccTUQQAAAAU'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W18OBrP@lg9FWCPEccTUQQAAAAU'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=7tjp8ghkjopas3iglkg838im24; _csrf=21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '55086'
+    'REDIRECT_URL' => '/Register/web/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/site/index'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532956166.047
+    'REQUEST_TIME' => 1532956166
+]
+2018-07-30 15:09:48 [::1][2][7tjp8ghkjopas3iglkg838im24][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: model' in /opt/lampp/htdocs/Register/controllers/SiteController.php:26
+Stack trace:
+#0 /opt/lampp/htdocs/Register/controllers/SiteController.php(26): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/opt/lampp/htdo...', 26, Array)
+#1 [internal function]: app\controllers\SiteController->actionIndex()
+#2 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('index', Array)
+#5 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/index', Array)
+#6 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /opt/lampp/htdocs/Register/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2018-07-30 15:09:48 [::1][2][7tjp8ghkjopas3iglkg838im24][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7tjp8ghkjopas3iglkg838im24'
+    '_csrf' => '21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'info' => -1
+    ]
+    '__id' => 2
+    'info' => 'Welcome christian1@mail.ru'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W18OHMdx9F4Xrzz61NW6OQAAAAI'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W18OHMdx9F4Xrzz61NW6OQAAAAI'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=7tjp8ghkjopas3iglkg838im24; _csrf=21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '55092'
+    'REDIRECT_URL' => '/Register/web/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/site/index'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532956188.384
+    'REQUEST_TIME' => 1532956188
+]
+2018-07-30 15:10:06 [::1][2][7tjp8ghkjopas3iglkg838im24][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: comment' in /opt/lampp/htdocs/Register/views/site/index.php:6
+Stack trace:
+#0 /opt/lampp/htdocs/Register/views/site/index.php(6): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/opt/lampp/htdo...', 6, Array)
+#1 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/View.php(336): require('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/opt/lampp/htdo...', Array)
+#3 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/opt/lampp/htdo...', Array, Object(app\controllers\SiteController))
+#4 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#5 /opt/lampp/htdocs/Register/controllers/SiteController.php(32): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('index', Array)
+#10 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/index', Array)
+#11 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /opt/lampp/htdocs/Register/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2018-07-30 15:10:06 [::1][2][7tjp8ghkjopas3iglkg838im24][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7tjp8ghkjopas3iglkg838im24'
+    '_csrf' => '21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'info' => -1
+    ]
+    '__id' => 2
+    'info' => 'Welcome christian1@mail.ru'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W18OLvtAn@9AUVgZdVYBCQAAAAc'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W18OLvtAn@9AUVgZdVYBCQAAAAc'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=7tjp8ghkjopas3iglkg838im24; _csrf=21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '55096'
+    'REDIRECT_URL' => '/Register/web/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/site/index'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532956206.21
+    'REQUEST_TIME' => 1532956206
+]
+2018-07-30 16:59:47 [::1][2][7tjp8ghkjopas3iglkg838im24][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\db\Query::find()' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Component.php:300
+Stack trace:
+#0 /opt/lampp/htdocs/Register/controllers/SiteController.php(19): yii\base\Component->__call('find', Array)
+#1 /opt/lampp/htdocs/Register/controllers/SiteController.php(19): yii\db\Query->find()
+#2 [internal function]: app\controllers\SiteController->actionIndex()
+#3 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#6 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#7 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /opt/lampp/htdocs/Register/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2018-07-30 16:59:47 [::1][2][7tjp8ghkjopas3iglkg838im24][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7tjp8ghkjopas3iglkg838im24'
+    '_csrf' => '21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'W18n47P@lg9FWCPEccTUQgAAAAU'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=7tjp8ghkjopas3iglkg838im24; _csrf=21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '55180'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532962787.01
+    'REQUEST_TIME' => 1532962787
+]
+2018-07-30 17:41:05 [::1][2][7tjp8ghkjopas3iglkg838im24][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '='' in /opt/lampp/htdocs/Register/controllers/SiteController.php:21
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-07-30 17:41:05 [::1][2][7tjp8ghkjopas3iglkg838im24][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7tjp8ghkjopas3iglkg838im24'
+    '_csrf' => '21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'W18xkaMoVEHnkCEYFK54lAAAAAM'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=7tjp8ghkjopas3iglkg838im24; _csrf=21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '55474'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532965265.646
+    'REQUEST_TIME' => 1532965265
+]
+2018-07-30 17:42:06 [::1][2][7tjp8ghkjopas3iglkg838im24][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '='' in /opt/lampp/htdocs/Register/controllers/SiteController.php:21
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-07-30 17:42:06 [::1][2][7tjp8ghkjopas3iglkg838im24][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7tjp8ghkjopas3iglkg838im24'
+    '_csrf' => '21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'W18xzsdx9F4Xrzz61NW6PQAAAAI'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=7tjp8ghkjopas3iglkg838im24; _csrf=21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '55476'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532965326.53
+    'REQUEST_TIME' => 1532965326
+]
+2018-07-30 17:43:19 [::1][2][7tjp8ghkjopas3iglkg838im24][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant ’user’ - assumed '’user’'' in /opt/lampp/htdocs/Register/controllers/SiteController.php:21
+Stack trace:
+#0 /opt/lampp/htdocs/Register/controllers/SiteController.php(21): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/opt/lampp/htdo...', 21, Array)
+#1 [internal function]: app\controllers\SiteController->actionIndex()
+#2 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#5 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#6 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /opt/lampp/htdocs/Register/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2018-07-30 17:43:19 [::1][2][7tjp8ghkjopas3iglkg838im24][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7tjp8ghkjopas3iglkg838im24'
+    '_csrf' => '21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'W18yF@8UveNwq2qmulz4ZAAAAAA'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=7tjp8ghkjopas3iglkg838im24; _csrf=21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '55480'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532965399.414
+    'REQUEST_TIME' => 1532965399
+]
+2018-07-30 17:43:53 [::1][2][7tjp8ghkjopas3iglkg838im24][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant ’user’ - assumed '’user’'' in /opt/lampp/htdocs/Register/controllers/SiteController.php:21
+Stack trace:
+#0 /opt/lampp/htdocs/Register/controllers/SiteController.php(21): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/opt/lampp/htdo...', 21, Array)
+#1 [internal function]: app\controllers\SiteController->actionIndex()
+#2 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#5 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#6 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /opt/lampp/htdocs/Register/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2018-07-30 17:43:53 [::1][2][7tjp8ghkjopas3iglkg838im24][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7tjp8ghkjopas3iglkg838im24'
+    '_csrf' => '21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'W18yOftAn@9AUVgZdVYBCwAAAAc'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=7tjp8ghkjopas3iglkg838im24; _csrf=21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '55482'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532965433.1
+    'REQUEST_TIME' => 1532965433
+]
+2018-07-30 17:47:54 [::1][2][7tjp8ghkjopas3iglkg838im24][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'' in /opt/lampp/htdocs/Register/controllers/SiteController.php:20
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-07-30 17:47:54 [::1][2][7tjp8ghkjopas3iglkg838im24][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7tjp8ghkjopas3iglkg838im24'
+    '_csrf' => '21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'W18zKkCs6d7ND7SZ0Cz7AQAAAAQ'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=7tjp8ghkjopas3iglkg838im24; _csrf=21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '55532'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532965674.469
+    'REQUEST_TIME' => 1532965674
+]
+2018-07-30 17:48:08 [::1][2][7tjp8ghkjopas3iglkg838im24][error][yii\base\InvalidArgumentException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: app\models\AddComment::getuser()' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Component.php:300
+Stack trace:
+#0 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/BaseActiveRecord.php(1236): yii\base\Component->__call('getuser', Array)
+#1 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/BaseActiveRecord.php(1236): app\models\AddComment->getuser()
+#2 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(540): yii\db\BaseActiveRecord->getRelation('<span class="st...')
+#3 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(450): yii\db\ActiveQuery->joinWithRelations(Object(app\models\AddComment), '[<span class="s...', '<span class="st...')
+#4 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(146): yii\db\ActiveQuery->buildJoinWith()
+#5 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/QueryBuilder.php(227): yii\db\ActiveQuery->prepare(Object(yii\db\mysql\QueryBuilder))
+#6 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(316): yii\db\QueryBuilder->build(Object(yii\db\ActiveQuery))
+#7 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/Query.php(237): yii\db\ActiveQuery->createCommand('<span class="ke...')
+#8 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#9 /opt/lampp/htdocs/Register/controllers/SiteController.php(20): yii\db\ActiveQuery->all()
+#10 [internal function]: app\controllers\SiteController->actionIndex()
+#11 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#12 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#13 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('<span class="st...', '[]')
+#14 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#15 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /opt/lampp/htdocs/Register/web/index.php(12): yii\base\Application->run()
+#17 {main}
+
+Next exception 'yii\base\InvalidArgumentException' with message 'app\models\AddComment has no relation named "user".' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/BaseActiveRecord.php:1239
+Stack trace:
+#0 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(540): yii\db\BaseActiveRecord->getRelation('<span class="st...')
+#1 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(450): yii\db\ActiveQuery->joinWithRelations(Object(app\models\AddComment), '[<span class="s...', '<span class="st...')
+#2 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(146): yii\db\ActiveQuery->buildJoinWith()
+#3 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/QueryBuilder.php(227): yii\db\ActiveQuery->prepare(Object(yii\db\mysql\QueryBuilder))
+#4 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(316): yii\db\QueryBuilder->build(Object(yii\db\ActiveQuery))
+#5 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/Query.php(237): yii\db\ActiveQuery->createCommand('<span class="ke...')
+#6 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#7 /opt/lampp/htdocs/Register/controllers/SiteController.php(20): yii\db\ActiveQuery->all()
+#8 [internal function]: app\controllers\SiteController->actionIndex()
+#9 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#10 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#11 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('<span class="st...', '[]')
+#12 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#13 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 /opt/lampp/htdocs/Register/web/index.php(12): yii\base\Application->run()
+#15 {main}
+2018-07-30 17:48:08 [::1][2][7tjp8ghkjopas3iglkg838im24][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7tjp8ghkjopas3iglkg838im24'
+    '_csrf' => '21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'W18zOHu-GHb8q28j0FqIbgAAAAE'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=7tjp8ghkjopas3iglkg838im24; _csrf=21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '55534'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532965688.141
+    'REQUEST_TIME' => 1532965688
+]
+2018-07-30 17:51:11 [::1][2][7tjp8ghkjopas3iglkg838im24][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '('' in /opt/lampp/htdocs/Register/models/AddComment.php:14
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-07-30 17:51:11 [::1][2][7tjp8ghkjopas3iglkg838im24][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7tjp8ghkjopas3iglkg838im24'
+    '_csrf' => '21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'W18z76MoVEHnkCEYFK54lQAAAAM'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=7tjp8ghkjopas3iglkg838im24; _csrf=21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '55584'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532965871.579
+    'REQUEST_TIME' => 1532965871
+]
+2018-07-30 17:51:30 [::1][2][7tjp8ghkjopas3iglkg838im24][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ','' in /opt/lampp/htdocs/Register/models/AddComment.php:14
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-07-30 17:51:30 [::1][2][7tjp8ghkjopas3iglkg838im24][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7tjp8ghkjopas3iglkg838im24'
+    '_csrf' => '21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'W180Asdx9F4Xrzz61NW6PgAAAAI'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=7tjp8ghkjopas3iglkg838im24; _csrf=21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '55588'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532965890.014
+    'REQUEST_TIME' => 1532965890
+]
+2018-07-30 17:52:26 [::1][2][7tjp8ghkjopas3iglkg838im24][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'coment.id' in 'on clause'' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/Command.php:1258
+Stack trace:
+#0 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/Command.php(1258): PDOStatement->execute()
+#1 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/Command.php(1148): yii\db\Command->internalExecute('<span class="st...')
+#2 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#3 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/Query.php(237): yii\db\Command->queryAll()
+#4 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#5 /opt/lampp/htdocs/Register/controllers/SiteController.php(20): yii\db\ActiveQuery->all()
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#8 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#9 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('<span class="st...', '[]')
+#10 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#11 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /opt/lampp/htdocs/Register/web/index.php(12): yii\base\Application->run()
+#13 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'coment.id' in 'on clause'
+The SQL being executed was: SELECT `coment`.* FROM `coment` LEFT JOIN `user` ON `coment`.`id` = `user`.`author_id`' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/Schema.php:664
+Stack trace:
+#0 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/Command.php(1263): yii\db\Schema->convertException(Object(PDOException), 'SELECT `coment`...')
+#1 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/Command.php(1148): yii\db\Command->internalExecute('<span class="st...')
+#2 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#3 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/Query.php(237): yii\db\Command->queryAll()
+#4 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#5 /opt/lampp/htdocs/Register/controllers/SiteController.php(20): yii\db\ActiveQuery->all()
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#8 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#9 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('<span class="st...', '[]')
+#10 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#11 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /opt/lampp/htdocs/Register/web/index.php(12): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'coment.id' in 'on clause'
+)
+
+2018-07-30 17:52:26 [::1][2][7tjp8ghkjopas3iglkg838im24][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7tjp8ghkjopas3iglkg838im24'
+    '_csrf' => '21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'W180Ou8UveNwq2qmulz4ZQAAAAA'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=7tjp8ghkjopas3iglkg838im24; _csrf=21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '55590'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532965946.802
+    'REQUEST_TIME' => 1532965946
+]
+2018-07-30 18:26:13 [::1][2][7tjp8ghkjopas3iglkg838im24][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Captcha' not found' in /opt/lampp/htdocs/Register/views/site/index.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-07-30 18:26:13 [::1][2][7tjp8ghkjopas3iglkg838im24][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7tjp8ghkjopas3iglkg838im24'
+    '_csrf' => '21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W188JECs6d7ND7SZ0Cz7BgAAAAQ'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W188JECs6d7ND7SZ0Cz7BgAAAAQ'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=7tjp8ghkjopas3iglkg838im24; _csrf=21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '56468'
+    'REDIRECT_URL' => '/Register/web/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/site/index'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532967972.966
+    'REQUEST_TIME' => 1532967972
+]
+2018-07-30 18:26:39 [::1][2][7tjp8ghkjopas3iglkg838im24][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\yii2\recaptcha\ReCaptchaValidator' not found' in /opt/lampp/htdocs/Register/models/Comment.php:18
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-07-30 18:26:39 [::1][2][7tjp8ghkjopas3iglkg838im24][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7tjp8ghkjopas3iglkg838im24'
+    '_csrf' => '21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W188P@8UveNwq2qmulz4ZwAAAAA'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W188P@8UveNwq2qmulz4ZwAAAAA'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=7tjp8ghkjopas3iglkg838im24; _csrf=21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '56470'
+    'REDIRECT_URL' => '/Register/web/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/site/index'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532967999.462
+    'REQUEST_TIME' => 1532967999
+]
+2018-07-30 18:27:12 [::1][2][7tjp8ghkjopas3iglkg838im24][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\yii2\recaptcha\ReCaptchaValidator' not found' in /opt/lampp/htdocs/Register/models/Comment.php:18
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-07-30 18:27:12 [::1][2][7tjp8ghkjopas3iglkg838im24][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7tjp8ghkjopas3iglkg838im24'
+    '_csrf' => '21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W188YHu-GHb8q28j0FqIcwAAAAE'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W188YHu-GHb8q28j0FqIcwAAAAE'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=7tjp8ghkjopas3iglkg838im24; _csrf=21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '56476'
+    'REDIRECT_URL' => '/Register/web/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/site/index'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532968032.163
+    'REQUEST_TIME' => 1532968032
+]
+2018-07-30 18:28:25 [::1][2][7tjp8ghkjopas3iglkg838im24][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'The use statement with non-compound name 'yii' has no effect' in /opt/lampp/htdocs/Register/views/site/index.php:5
+Stack trace:
+#0 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/View.php(336): yii\base\ErrorHandler->handleError(2, 'The use stateme...', '/opt/lampp/htdo...', 5, Array)
+#1 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/View.php(336): yii\base\View::renderPhpFile()
+#2 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/opt/lampp/htdo...', Array)
+#3 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/opt/lampp/htdo...', Array, Object(app\controllers\SiteController))
+#4 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#5 /opt/lampp/htdocs/Register/controllers/SiteController.php(29): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('index', Array)
+#10 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/index', Array)
+#11 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /opt/lampp/htdocs/Register/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2018-07-30 18:28:25 [::1][2][7tjp8ghkjopas3iglkg838im24][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7tjp8ghkjopas3iglkg838im24'
+    '_csrf' => '21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W188qcdx9F4Xrzz61NW6QgAAAAI'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W188qcdx9F4Xrzz61NW6QgAAAAI'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=7tjp8ghkjopas3iglkg838im24; _csrf=21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '56480'
+    'REDIRECT_URL' => '/Register/web/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/site/index'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532968105.167
+    'REQUEST_TIME' => 1532968105
+]
+2018-07-30 18:28:34 [::1][2][7tjp8ghkjopas3iglkg838im24][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\yii2\recaptcha\ReCaptchaValidator' not found' in /opt/lampp/htdocs/Register/models/Comment.php:18
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-07-30 18:28:33 [::1][2][7tjp8ghkjopas3iglkg838im24][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7tjp8ghkjopas3iglkg838im24'
+    '_csrf' => '21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W188saMoVEHnkCEYFK54mAAAAAM'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W188saMoVEHnkCEYFK54mAAAAAM'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=7tjp8ghkjopas3iglkg838im24; _csrf=21fb4b72288f140097bca4c7406fc7a6b9072294d9f73aa97b0cb739a0002d2ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WNCTi7nad4AnKMVQ-wU8-BPqNzkoIPIc%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '56482'
+    'REDIRECT_URL' => '/Register/web/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/site/index'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532968113.953
+    'REQUEST_TIME' => 1532968113
+]
+2018-07-31 13:10:28 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "book/index".' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('book/index', Array)
+#1 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /opt/lampp/htdocs/Register/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/Register/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2018-07-31 13:10:28 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'cmt5ghoot5822am5aphtgmpbo4'
+    '_csrf' => '80c9d3a1637c1f47049d25de75de206908af860d55d22292d8118b19b3a899dba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3LAEcWuySUs8HbN60TA53shMqm_kH-OP\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2BDpC9EpbkjFd6ISeKdjAAAAAA'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2BDpC9EpbkjFd6ISeKdjAAAAAA'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=cmt5ghoot5822am5aphtgmpbo4; _csrf=80c9d3a1637c1f47049d25de75de206908af860d55d22292d8118b19b3a899dba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223LAEcWuySUs8HbN60TA53shMqm_kH-OP%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '53734'
+    'REDIRECT_URL' => '/Register/web/book/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/book/index'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533035428.711
+    'REQUEST_TIME' => 1533035428
+]
+2018-07-31 13:10:39 [::1][-][cmt5ghoot5822am5aphtgmpbo4][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: authors' in /opt/lampp/htdocs/Register/views/book-shop/index.php:10
+Stack trace:
+#0 /opt/lampp/htdocs/Register/views/book-shop/index.php(10): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/opt/lampp/htdo...', 10, Array)
+#1 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/View.php(336): require('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/opt/lampp/htdo...', Array)
+#3 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/opt/lampp/htdo...', Array, Object(app\controllers\BookShopController))
+#4 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('index', Array, Object(app\controllers\BookShopController))
+#5 /opt/lampp/htdocs/Register/controllers/BookShopController.php(30): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\BookShopController->actionIndex()
+#7 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('index', Array)
+#10 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('book-shop/index', Array)
+#11 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /opt/lampp/htdocs/Register/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2018-07-31 13:10:39 [::1][-][cmt5ghoot5822am5aphtgmpbo4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'cmt5ghoot5822am5aphtgmpbo4'
+    '_csrf' => '80c9d3a1637c1f47049d25de75de206908af860d55d22292d8118b19b3a899dba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3LAEcWuySUs8HbN60TA53shMqm_kH-OP\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2BDr286QOuRXgxWZzmpDwAAAAg'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2BDr286QOuRXgxWZzmpDwAAAAg'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=cmt5ghoot5822am5aphtgmpbo4; _csrf=80c9d3a1637c1f47049d25de75de206908af860d55d22292d8118b19b3a899dba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223LAEcWuySUs8HbN60TA53shMqm_kH-OP%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '53736'
+    'REDIRECT_URL' => '/Register/web/book-shop/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/book-shop/index'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533035439.314
+    'REQUEST_TIME' => 1533035439
+]
+2018-07-31 13:23:48 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: book-shop/creae' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('creae', Array)
+#1 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('book-shop/creae', Array)
+#2 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /opt/lampp/htdocs/Register/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/Register/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2018-07-31 13:23:48 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'cmt5ghoot5822am5aphtgmpbo4'
+    '_csrf' => '80c9d3a1637c1f47049d25de75de206908af860d55d22292d8118b19b3a899dba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3LAEcWuySUs8HbN60TA53shMqm_kH-OP\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2BGxKO32goQ0dVTOeb-0gAAAAI'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2BGxKO32goQ0dVTOeb-0gAAAAI'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=cmt5ghoot5822am5aphtgmpbo4; _csrf=80c9d3a1637c1f47049d25de75de206908af860d55d22292d8118b19b3a899dba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223LAEcWuySUs8HbN60TA53shMqm_kH-OP%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '53802'
+    'REDIRECT_URL' => '/Register/web/book-shop/creae'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/book-shop/creae'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533036228.271
+    'REQUEST_TIME' => 1533036228
+]
+2018-07-31 13:23:50 [::1][-][cmt5ghoot5822am5aphtgmpbo4][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function isAttributeRequired() on string' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/widgets/ActiveField.php:915
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-07-31 13:23:50 [::1][-][cmt5ghoot5822am5aphtgmpbo4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'cmt5ghoot5822am5aphtgmpbo4'
+    '_csrf' => '80c9d3a1637c1f47049d25de75de206908af860d55d22292d8118b19b3a899dba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3LAEcWuySUs8HbN60TA53shMqm_kH-OP\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2BGxmEmIwP2YJGd-iaS@AAAAAU'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2BGxmEmIwP2YJGd-iaS@AAAAAU'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=cmt5ghoot5822am5aphtgmpbo4; _csrf=80c9d3a1637c1f47049d25de75de206908af860d55d22292d8118b19b3a899dba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223LAEcWuySUs8HbN60TA53shMqm_kH-OP%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '53808'
+    'REDIRECT_URL' => '/Register/web/book-shop/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/book-shop/create'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533036230.829
+    'REQUEST_TIME' => 1533036230
+]
+2018-07-31 13:25:11 [::1][-][cmt5ghoot5822am5aphtgmpbo4][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function isAttributeRequired() on string' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/widgets/ActiveField.php:915
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-07-31 13:25:11 [::1][-][cmt5ghoot5822am5aphtgmpbo4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'cmt5ghoot5822am5aphtgmpbo4'
+    '_csrf' => '80c9d3a1637c1f47049d25de75de206908af860d55d22292d8118b19b3a899dba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3LAEcWuySUs8HbN60TA53shMqm_kH-OP\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2BHFxD4PyPQcfAS7rT9LQAAAAY'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2BHFxD4PyPQcfAS7rT9LQAAAAY'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=cmt5ghoot5822am5aphtgmpbo4; _csrf=80c9d3a1637c1f47049d25de75de206908af860d55d22292d8118b19b3a899dba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223LAEcWuySUs8HbN60TA53shMqm_kH-OP%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '53810'
+    'REDIRECT_URL' => '/Register/web/book-shop/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/book-shop/create'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533036311.638
+    'REQUEST_TIME' => 1533036311
+]
+2018-07-31 13:28:15 [::1][-][cmt5ghoot5822am5aphtgmpbo4][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function isAttributeRequired() on string' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/widgets/ActiveField.php:915
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-07-31 13:28:15 [::1][-][cmt5ghoot5822am5aphtgmpbo4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'cmt5ghoot5822am5aphtgmpbo4'
+    '_csrf' => '80c9d3a1637c1f47049d25de75de206908af860d55d22292d8118b19b3a899dba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3LAEcWuySUs8HbN60TA53shMqm_kH-OP\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2BHz1JiWAI@bfNK2tT9egAAAAI'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2BHz1JiWAI@bfNK2tT9egAAAAI'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=cmt5ghoot5822am5aphtgmpbo4; _csrf=80c9d3a1637c1f47049d25de75de206908af860d55d22292d8118b19b3a899dba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223LAEcWuySUs8HbN60TA53shMqm_kH-OP%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '53818'
+    'REDIRECT_URL' => '/Register/web/book-shop/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/book-shop/create'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533036495.568
+    'REQUEST_TIME' => 1533036495
+]
+2018-07-31 13:30:38 [::1][-][cmt5ghoot5822am5aphtgmpbo4][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function isAttributeRequired() on string' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/widgets/ActiveField.php:915
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-07-31 13:30:37 [::1][-][cmt5ghoot5822am5aphtgmpbo4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'cmt5ghoot5822am5aphtgmpbo4'
+    '_csrf' => '80c9d3a1637c1f47049d25de75de206908af860d55d22292d8118b19b3a899dba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3LAEcWuySUs8HbN60TA53shMqm_kH-OP\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2BIXRwGwMDxrHHGxpWkUgAAAAE'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2BIXRwGwMDxrHHGxpWkUgAAAAE'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=cmt5ghoot5822am5aphtgmpbo4; _csrf=80c9d3a1637c1f47049d25de75de206908af860d55d22292d8118b19b3a899dba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223LAEcWuySUs8HbN60TA53shMqm_kH-OP%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '53822'
+    'REDIRECT_URL' => '/Register/web/book-shop/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/book-shop/create'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533036637.952
+    'REQUEST_TIME' => 1533036637
+]
+2018-07-31 13:33:01 [::1][-][cmt5ghoot5822am5aphtgmpbo4][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function isAttributeRequired() on string' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/widgets/ActiveField.php:915
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-07-31 13:33:01 [::1][-][cmt5ghoot5822am5aphtgmpbo4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'cmt5ghoot5822am5aphtgmpbo4'
+    '_csrf' => '80c9d3a1637c1f47049d25de75de206908af860d55d22292d8118b19b3a899dba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3LAEcWuySUs8HbN60TA53shMqm_kH-OP\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2BI7WrIFByuXg9y1rPYmQAAAAA'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2BI7WrIFByuXg9y1rPYmQAAAAA'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=cmt5ghoot5822am5aphtgmpbo4; _csrf=80c9d3a1637c1f47049d25de75de206908af860d55d22292d8118b19b3a899dba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223LAEcWuySUs8HbN60TA53shMqm_kH-OP%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '53864'
+    'REDIRECT_URL' => '/Register/web/book-shop/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/book-shop/create'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533036781.73
+    'REQUEST_TIME' => 1533036781
+]
+2018-07-31 13:34:55 [::1][-][cmt5ghoot5822am5aphtgmpbo4][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function isAttributeRequired() on string' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/widgets/ActiveField.php:915
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-07-31 13:34:55 [::1][-][cmt5ghoot5822am5aphtgmpbo4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'cmt5ghoot5822am5aphtgmpbo4'
+    '_csrf' => '80c9d3a1637c1f47049d25de75de206908af860d55d22292d8118b19b3a899dba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3LAEcWuySUs8HbN60TA53shMqm_kH-OP\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2BJXyywvCHA5cCnaaYAXgAAAAQ'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2BJXyywvCHA5cCnaaYAXgAAAAQ'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=cmt5ghoot5822am5aphtgmpbo4; _csrf=80c9d3a1637c1f47049d25de75de206908af860d55d22292d8118b19b3a899dba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223LAEcWuySUs8HbN60TA53shMqm_kH-OP%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '53936'
+    'REDIRECT_URL' => '/Register/web/book-shop/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/book-shop/create'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533036895.175
+    'REQUEST_TIME' => 1533036895
+]
+2018-07-31 13:41:58 [::1][-][cmt5ghoot5822am5aphtgmpbo4][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function isAttributeRequired() on string' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/widgets/ActiveField.php:915
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-07-31 13:41:58 [::1][-][cmt5ghoot5822am5aphtgmpbo4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'cmt5ghoot5822am5aphtgmpbo4'
+    '_csrf' => '80c9d3a1637c1f47049d25de75de206908af860d55d22292d8118b19b3a899dba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3LAEcWuySUs8HbN60TA53shMqm_kH-OP\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2BLBsONhGfwUXaOim2KDwAAAAM'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2BLBsONhGfwUXaOim2KDwAAAAM'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=cmt5ghoot5822am5aphtgmpbo4; _csrf=80c9d3a1637c1f47049d25de75de206908af860d55d22292d8118b19b3a899dba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223LAEcWuySUs8HbN60TA53shMqm_kH-OP%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '53978'
+    'REDIRECT_URL' => '/Register/web/book-shop/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/book-shop/create'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533037318.726
+    'REQUEST_TIME' => 1533037318
+]
+2018-07-31 13:44:40 [::1][-][cmt5ghoot5822am5aphtgmpbo4][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function isAttributeRequired() on string' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/widgets/ActiveField.php:915
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-07-31 13:44:40 [::1][-][cmt5ghoot5822am5aphtgmpbo4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'cmt5ghoot5822am5aphtgmpbo4'
+    '_csrf' => '80c9d3a1637c1f47049d25de75de206908af860d55d22292d8118b19b3a899dba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3LAEcWuySUs8HbN60TA53shMqm_kH-OP\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2BLqFJiWAI@bfNK2tT9ewAAAAI'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2BLqFJiWAI@bfNK2tT9ewAAAAI'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=cmt5ghoot5822am5aphtgmpbo4; _csrf=80c9d3a1637c1f47049d25de75de206908af860d55d22292d8118b19b3a899dba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223LAEcWuySUs8HbN60TA53shMqm_kH-OP%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '53982'
+    'REDIRECT_URL' => '/Register/web/book-shop/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/book-shop/create'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533037480.156
+    'REQUEST_TIME' => 1533037480
+]
+2018-07-31 13:47:03 [::1][-][cmt5ghoot5822am5aphtgmpbo4][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function isAttributeRequired() on string' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/widgets/ActiveField.php:915
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-07-31 13:47:03 [::1][-][cmt5ghoot5822am5aphtgmpbo4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'cmt5ghoot5822am5aphtgmpbo4'
+    '_csrf' => '80c9d3a1637c1f47049d25de75de206908af860d55d22292d8118b19b3a899dba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3LAEcWuySUs8HbN60TA53shMqm_kH-OP\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2BMNxwGwMDxrHHGxpWkVQAAAAE'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2BMNxwGwMDxrHHGxpWkVQAAAAE'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=cmt5ghoot5822am5aphtgmpbo4; _csrf=80c9d3a1637c1f47049d25de75de206908af860d55d22292d8118b19b3a899dba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223LAEcWuySUs8HbN60TA53shMqm_kH-OP%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '54176'
+    'REDIRECT_URL' => '/Register/web/book-shop/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/book-shop/create'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533037623.473
+    'REQUEST_TIME' => 1533037623
+]
+2018-07-31 13:47:21 [::1][-][cmt5ghoot5822am5aphtgmpbo4][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function isAttributeRequired() on string' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/widgets/ActiveField.php:915
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-07-31 13:47:21 [::1][-][cmt5ghoot5822am5aphtgmpbo4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'cmt5ghoot5822am5aphtgmpbo4'
+    '_csrf' => '80c9d3a1637c1f47049d25de75de206908af860d55d22292d8118b19b3a899dba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3LAEcWuySUs8HbN60TA53shMqm_kH-OP\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2BMSSywvCHA5cCnaaYAXwAAAAQ'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2BMSSywvCHA5cCnaaYAXwAAAAQ'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=cmt5ghoot5822am5aphtgmpbo4; _csrf=80c9d3a1637c1f47049d25de75de206908af860d55d22292d8118b19b3a899dba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223LAEcWuySUs8HbN60TA53shMqm_kH-OP%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '54178'
+    'REDIRECT_URL' => '/Register/web/book-shop/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/book-shop/create'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533037641.15
+    'REQUEST_TIME' => 1533037641
+]
+2018-07-31 13:49:37 [::1][-][cmt5ghoot5822am5aphtgmpbo4][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function isAttributeRequired() on string' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/widgets/ActiveField.php:915
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-07-31 13:49:37 [::1][-][cmt5ghoot5822am5aphtgmpbo4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'cmt5ghoot5822am5aphtgmpbo4'
+    '_csrf' => '80c9d3a1637c1f47049d25de75de206908af860d55d22292d8118b19b3a899dba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3LAEcWuySUs8HbN60TA53shMqm_kH-OP\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2BM0bK5l6hAgYCBktFaRQAAAAY'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2BM0bK5l6hAgYCBktFaRQAAAAY'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=cmt5ghoot5822am5aphtgmpbo4; _csrf=80c9d3a1637c1f47049d25de75de206908af860d55d22292d8118b19b3a899dba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223LAEcWuySUs8HbN60TA53shMqm_kH-OP%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '54378'
+    'REDIRECT_URL' => '/Register/web/book-shop/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/book-shop/create'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533037777.297
+    'REQUEST_TIME' => 1533037777
+]
+2018-07-31 13:52:48 [::1][-][cmt5ghoot5822am5aphtgmpbo4][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function isAttributeRequired() on string' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/widgets/ActiveField.php:915
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-07-31 13:52:48 [::1][-][cmt5ghoot5822am5aphtgmpbo4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'cmt5ghoot5822am5aphtgmpbo4'
+    '_csrf' => '80c9d3a1637c1f47049d25de75de206908af860d55d22292d8118b19b3a899dba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3LAEcWuySUs8HbN60TA53shMqm_kH-OP\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2BNkMONhGfwUXaOim2KEAAAAAM'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2BNkMONhGfwUXaOim2KEAAAAAM'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=cmt5ghoot5822am5aphtgmpbo4; _csrf=80c9d3a1637c1f47049d25de75de206908af860d55d22292d8118b19b3a899dba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223LAEcWuySUs8HbN60TA53shMqm_kH-OP%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '54382'
+    'REDIRECT_URL' => '/Register/web/book-shop/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/book-shop/create'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533037968.231
+    'REQUEST_TIME' => 1533037968
+]
+2018-07-31 13:53:18 [::1][-][cmt5ghoot5822am5aphtgmpbo4][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function isAttributeRequired() on string' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/widgets/ActiveField.php:915
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-07-31 13:53:18 [::1][-][cmt5ghoot5822am5aphtgmpbo4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'cmt5ghoot5822am5aphtgmpbo4'
+    '_csrf' => '80c9d3a1637c1f47049d25de75de206908af860d55d22292d8118b19b3a899dba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3LAEcWuySUs8HbN60TA53shMqm_kH-OP\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2BNrlJiWAI@bfNK2tT9fAAAAAI'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2BNrlJiWAI@bfNK2tT9fAAAAAI'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=cmt5ghoot5822am5aphtgmpbo4; _csrf=80c9d3a1637c1f47049d25de75de206908af860d55d22292d8118b19b3a899dba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223LAEcWuySUs8HbN60TA53shMqm_kH-OP%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '54384'
+    'REDIRECT_URL' => '/Register/web/book-shop/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/book-shop/create'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533037998.208
+    'REQUEST_TIME' => 1533037998
+]
+2018-07-31 13:53:47 [::1][-][cmt5ghoot5822am5aphtgmpbo4][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function isAttributeRequired() on string' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/widgets/ActiveField.php:915
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-07-31 13:53:47 [::1][-][cmt5ghoot5822am5aphtgmpbo4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'cmt5ghoot5822am5aphtgmpbo4'
+    '_csrf' => '80c9d3a1637c1f47049d25de75de206908af860d55d22292d8118b19b3a899dba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3LAEcWuySUs8HbN60TA53shMqm_kH-OP\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2BNy1MrF0I74MrfqFja7gAAAAU'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2BNy1MrF0I74MrfqFja7gAAAAU'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=cmt5ghoot5822am5aphtgmpbo4; _csrf=80c9d3a1637c1f47049d25de75de206908af860d55d22292d8118b19b3a899dba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223LAEcWuySUs8HbN60TA53shMqm_kH-OP%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '54386'
+    'REDIRECT_URL' => '/Register/web/book-shop/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/book-shop/create'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533038027.726
+    'REQUEST_TIME' => 1533038027
+]
+2018-07-31 14:53:56 [::1][-][cmt5ghoot5822am5aphtgmpbo4][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function isAttributeRequired() on string' in /opt/lampp/htdocs/Register/vendor/yiisoft/yii2/widgets/ActiveField.php:915
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-07-31 14:53:56 [::1][-][cmt5ghoot5822am5aphtgmpbo4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'cmt5ghoot5822am5aphtgmpbo4'
+    '_csrf' => '80c9d3a1637c1f47049d25de75de206908af860d55d22292d8118b19b3a899dba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3LAEcWuySUs8HbN60TA53shMqm_kH-OP\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2Bb5LK5l6hAgYCBktFaRgAAAAY'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2Bb5LK5l6hAgYCBktFaRgAAAAY'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=cmt5ghoot5822am5aphtgmpbo4; _csrf=80c9d3a1637c1f47049d25de75de206908af860d55d22292d8118b19b3a899dba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223LAEcWuySUs8HbN60TA53shMqm_kH-OP%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/Register/web/index.php'
+    'REMOTE_PORT' => '54460'
+    'REDIRECT_URL' => '/Register/web/book-shop/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Register/web/book-shop/create'
+    'SCRIPT_NAME' => '/Register/web/index.php'
+    'PHP_SELF' => '/Register/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1533041636.169
+    'REQUEST_TIME' => 1533041636
+]

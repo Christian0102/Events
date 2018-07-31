@@ -2,7 +2,7 @@
 
 namespace app\controllers;
 use yii;
-use app\models\Author;
+use app\models\Book;
 class BookShopController extends \yii\web\Controller
 {
     public function actionDelete()
@@ -16,15 +16,22 @@ class BookShopController extends \yii\web\Controller
     }
 	public function actionCreate()
 	{
-		$model = new Author();
+		$book = new Book();
+		if($book->load(Yii::$app->request->post()) && $book->save())
+		{
+			Yii::$app->session->setFlash('success','Saved');
+		}
 		
-		return $this->render('create',['model'=>$model]);
+		return $this->render('create',['book'=>$book]);
 	}
     public function actionIndex()
     {	
-		$authors = Author::find()->all();
-		
-			return $this->render('index',['authors'=>$authors]);
+				
+			$book = new Book();
+			//$book->name = 'The game';
+			//$book->isbn = '23455345323232';
+			$book->save();
+			return $this->render('index');
     }
 
     public function actionUpdate()

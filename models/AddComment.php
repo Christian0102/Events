@@ -9,6 +9,10 @@ class AddComment extends ActiveRecord
 	{
 	return 'coment';	
 	}
+	public function getUser()
+	{
+		return $this->hasOne(User::ClassName(),['id'=>'author_id']);
+	}
 }
 
 

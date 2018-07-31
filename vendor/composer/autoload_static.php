@@ -20,6 +20,7 @@ class ComposerStaticInitebd55cebfa311cbc095d8aed0200b47c
         'y' => 
         array (
             'yii\\swiftmailer\\' => 16,
+            'yii\\httpclient\\' => 15,
             'yii\\gii\\' => 8,
             'yii\\faker\\' => 10,
             'yii\\debug\\' => 10,
@@ -30,6 +31,10 @@ class ComposerStaticInitebd55cebfa311cbc095d8aed0200b47c
         'p' => 
         array (
             'phpDocumentor\\Reflection\\' => 25,
+        ),
+        'h' => 
+        array (
+            'himiklab\\yii2\\recaptcha\\' => 24,
         ),
         'c' => 
         array (
@@ -83,6 +88,10 @@ class ComposerStaticInitebd55cebfa311cbc095d8aed0200b47c
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2-swiftmailer',
         ),
+        'yii\\httpclient\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yiisoft/yii2-httpclient/src',
+        ),
         'yii\\gii\\' => 
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2-gii/src',
@@ -112,6 +121,10 @@ class ComposerStaticInitebd55cebfa311cbc095d8aed0200b47c
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+        ),
+        'himiklab\\yii2\\recaptcha\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/himiklab/yii2-recaptcha-widget',
         ),
         'cebe\\markdown\\' => 
         array (

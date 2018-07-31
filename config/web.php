@@ -33,6 +33,17 @@ $config = [
             // for the mailer to send real emails.
             'useFileTransport' => true,
         ],
+        'reCaptcha' => [
+ 
+       'name' => 'reCaptcha',
+ 
+       'class' => 'himiklab\yii2\recaptcha\ReCaptcha',
+ 
+       'siteKey' => 'sitekey',
+ 
+       'secret' => 'secret key',
+ 
+       ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [
